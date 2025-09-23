@@ -15,232 +15,17 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="p-5 bg-rose-50 flex flex-col gap-7 sm:flex-row sm:px-5 lg:p-20">
-  <main class="sm:w-[70%]">
+<body class=" bg-rose-50 flex flex-col gap-7 sm:flex-row ">
+  <main class="sm:w-[70%] lg:p-20 p-5 sm:px-5">
     <h1 class="text-[3rem] font-bold mb-5">Desserts</h1> 
     <section class="flex flex-col items-center gap-7 sm:grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3" id="display">
-      <!-- <div>
-        <div>
-          <img src="./assets/images/image-waffle-desktop.jpg" alt="" class="rounded-[20px] itemcontainer">
-        </div>
-        <p class="text-rose-900">Waffle</p>
-        <p class="text-rose-950 text-[1.3rem] font-semibold dish">Waffle with Berries</p>
-        <p class="text-rose-800 font-medium text-[1.2rem] price">$6.50</p>
-        <div class="flex justify-center sm:justify-start sm:pt-3">
-          <div class="flex gap-7 max-w-max bg-rose-800 px-6 py-2 rounded-full hidden number">
-              <img src="./assets/images/icon-decrement-quantity.svg" alt="minus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer decrease">
-              <p class="text-white itemnumber">1</p>
-              <img src="./assets/images/icon-increment-quantity.svg" alt="plus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer increase">
-          </div>
-          <div class="flex justify-center gap-2 max-w-max bg-white border border-rose-900 px-6 py-2 rounded-full cursor-pointer hover:shadow-lg atc">
-            <img src="./assets/images/icon-add-to-cart.svg" alt="add to cart icon">
-            <p>Add to Cart</p>
-          </div>
-        </div>
-      </div>
 
-      <div>
-        <div>
-          <img src="./assets/images/image-creme-brulee-desktop.jpg" alt="" class="rounded-[20px] itemcontainer">
-        </div>
-        <p class="text-rose-900"> Crème Brûlée</p>
-        <p class="text-rose-950 text-[1.3rem] font-semibold dish"> Vanilla Bean Crème Brûlée</p>
-        <p class="text-rose-800 font-medium text-[1.2rem] price">$7.00</p>
-        <div class="flex justify-center sm:justify-start sm:pt-3">
-          <div class="flex gap-7 max-w-max bg-rose-800 px-6 py-2 rounded-full hidden number">
-              <img src="./assets/images/icon-decrement-quantity.svg" alt="minus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer decrease">
-              <p class="text-white itemnumber">1</p>
-              <img src="./assets/images/icon-increment-quantity.svg" alt="plus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer increase">
-          </div>
-          <div class="flex justify-center gap-2 max-w-max bg-white border border-rose-900 px-6 py-2 rounded-full cursor-pointer hover:shadow-lg atc">
-            <img src="./assets/images/icon-add-to-cart.svg" alt="add to cart icon">
-            <p>Add to Cart</p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <img src="./assets/images/image-macaron-desktop.jpg" alt="" class="rounded-[20px] itemcontainer">
-        </div>
-        <p class="text-rose-900">Macaron</p>
-        <p class="text-rose-950 text-[1.3rem] font-semibold dish"> Macaron Mix of Five</p>
-        <p class="text-rose-800 font-medium text-[1.2rem] price">$8.00</p>
-        <div class="flex justify-center sm:justify-start sm:pt-3">
-          <div class="flex gap-7 max-w-max bg-rose-800 px-6 py-2 rounded-full hidden number">
-              <img src="./assets/images/icon-decrement-quantity.svg" alt="minus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer decrease">
-              <p class="text-white itemnumber">1</p>
-              <img src="./assets/images/icon-increment-quantity.svg" alt="plus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer increase">
-          </div>
-          <div class="flex justify-center gap-2 max-w-max bg-white border border-rose-900 px-6 py-2 rounded-full cursor-pointer hover:shadow-lg atc">
-            <img src="./assets/images/icon-add-to-cart.svg" alt="add to cart icon">
-            <p>Add to Cart</p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <img src="./assets/images/image-tiramisu-desktop.jpg" alt="" class="rounded-[20px] itemcontainer">
-        </div>
-        <p class="text-rose-900">Tiramisu</p>
-        <p class="text-rose-950 text-[1.3rem] font-semibold dish">Classic Tiramisu</p>
-        <p class="text-rose-800 font-medium text-[1.2rem] price">$5.50</p>
-         <div class="flex justify-center sm:justify-start sm:pt-3">
-        <div class="flex gap-7 max-w-max bg-rose-800 px-6 py-2 rounded-full hidden number">
-              <img src="./assets/images/icon-decrement-quantity.svg" alt="minus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer decrease">
-              <p class="text-white itemnumber">1</p>
-              <img src="./assets/images/icon-increment-quantity.svg" alt="plus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer increase">
-          </div>
-          <div class="flex justify-center gap-2 max-w-max bg-white border border-rose-900 px-6 py-2 rounded-full cursor-pointer hover:shadow-lg atc">
-            <img src="./assets/images/icon-add-to-cart.svg" alt="add to cart icon">
-            <p>Add to Cart</p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <img src="./assets/images/image-baklava-desktop.jpg" alt="" class="rounded-[20px] itemcontainer">
-        </div>
-        <p class="text-rose-900">Baklava</p>
-        <p class="text-rose-950 text-[1.3rem] font-semibold dish">Pistachio Baklava</p>
-        <p class="text-rose-800 font-medium text-[1.2rem] price">$4.00</p>
-        <div class="flex justify-center sm:justify-start sm:pt-3">
-          <div class="flex gap-7 max-w-max bg-rose-800 px-6 py-2 rounded-full hidden number">
-              <img src="./assets/images/icon-decrement-quantity.svg" alt="minus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer decrease">
-              <p class="text-white itemnumber">1</p>
-              <img src="./assets/images/icon-increment-quantity.svg" alt="plus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer increase">
-          </div>
-          <div class="flex justify-center gap-2 max-w-max bg-white border border-rose-900 px-6 py-2 rounded-full cursor-pointer hover:shadow-lg atc">
-            <img src="./assets/images/icon-add-to-cart.svg" alt="add to cart icon">
-            <p>Add to Cart</p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <img src="./assets/images/image-meringue-desktop.jpg" alt="" class="rounded-[20px] itemcontainer">
-        </div>
-        <p class="text-rose-900">Pie</p>
-        <p class="text-rose-950 text-[1.3rem] font-semibold dish">Lemon Meringue Pie</p>
-        <p class="text-rose-800 font-medium text-[1.2rem] price">$5.00</p>
-        <div class="flex justify-center sm:justify-start sm:pt-3">
-          <div class="flex gap-7 max-w-max bg-rose-800 px-6 py-2 rounded-full hidden number">
-              <img src="./assets/images/icon-decrement-quantity.svg" alt="minus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer decrease">
-              <p class="text-white itemnumber">1</p>
-              <img src="./assets/images/icon-increment-quantity.svg" alt="plus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer increase">
-          </div>
-          <div class="flex justify-center gap-2 max-w-max bg-white border border-rose-900 px-6 py-2 rounded-full cursor-pointer hover:shadow-lg atc">
-            <img src="./assets/images/icon-add-to-cart.svg" alt="add to cart icon">
-            <p>Add to Cart</p>
-          </div>
-        </div>
-      </div>
-        
-      <div>
-        <div>
-          <img src="./assets/images/image-cake-desktop.jpg" alt="" class="rounded-[20px] itemcontainer">
-        </div>
-        <p class="text-rose-900">Cake</p>
-        <p class="text-rose-950 text-[1.3rem] font-semibold dish">Red Velvet Cake</p>
-        <p class="text-rose-800 font-medium text-[1.2rem] price">$4.50</p>
-        <div class="flex justify-center sm:justify-start sm:pt-3">
-          <div class="flex gap-7 max-w-max bg-rose-800 px-6 py-2 rounded-full hidden number">
-              <img src="./assets/images/icon-decrement-quantity.svg" alt="minus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer decrease">
-              <p class="text-white itemnumber">1</p>
-              <img src="./assets/images/icon-increment-quantity.svg" alt="plus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer increase">
-          </div>
-          <div class="flex justify-center gap-2 max-w-max bg-white border border-rose-900 px-6 py-2 rounded-full cursor-pointer hover:shadow-lg atc">
-            <img src="./assets/images/icon-add-to-cart.svg" alt="add to cart icon">
-            <p>Add to Cart</p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <img src="./assets/images/image-brownie-desktop.jpg" alt="" class="rounded-[20px] itemcontainer">
-        </div>
-        <p class="text-rose-900"> Brownie</p>
-        <p class="text-rose-950 text-[1.3rem] font-semibold dish">Salted Caramel Brownie</p>
-        <p class="text-rose-800 font-medium text-[1.2rem] price">$4.50</p>
-        <div class="flex justify-center sm:justify-start sm:pt-3">
-          <div class="flex gap-7 max-w-max bg-rose-800 px-6 py-2 rounded-full hidden number">
-              <img src="./assets/images/icon-decrement-quantity.svg" alt="minus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer decrease">
-              <p class="text-white itemnumber">1</p>
-              <img src="./assets/images/icon-increment-quantity.svg" alt="plus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer increase">
-          </div>
-          <div class="flex justify-center gap-2 max-w-max bg-white border border-rose-900 px-6 py-2 rounded-full cursor-pointer hover:shadow-lg atc">
-            <img src="./assets/images/icon-add-to-cart.svg" alt="add to cart icon">
-            <p>Add to Cart</p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <img src="./assets/images/image-panna-cotta-desktop.jpg" alt="" class="rounded-[20px] itemcontainer">
-        </div>
-        <p class="text-rose-900">Panna Cotta</p>
-        <p class="text-rose-950 text-[1.3rem] font-semibold dish">Vanilla Panna Cotta</p>
-        <p class="text-rose-800 font-medium text-[1.2rem] price">$6.50</p>
-        <div class="flex justify-center sm:justify-start sm:pt-3">
-          <div class="flex gap-7 max-w-max bg-rose-800 px-6 py-2 rounded-full hidden number">
-              <img src="./assets/images/icon-decrement-quantity.svg" alt="minus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer decrease">
-              <p class="text-white itemnumber">1</p>
-              <img src="./assets/images/icon-increment-quantity.svg" alt="plus sign" class="border border-white rounded-[50%] py-1 px-[5px] border-2 cursor-pointer increase">
-          </div>
-          <div class="flex justify-center gap-2 max-w-max bg-white border border-rose-900 px-6 py-2 rounded-full cursor-pointer hover:shadow-lg atc">
-            <img src="./assets/images/icon-add-to-cart.svg" alt="add to cart icon">
-            <p>Add to Cart</p>
-          </div>
-        </div>
-      </div> -->
     </section>
   </main>
-  <aside class="flex-1">
+  <aside class="flex-1 pt-5 lg:pt-25 sm:px-5">
     <div class=" flex flex-col gap-3 bg-white p-5 rounded-xl" >
       <h2 class="text-rose-800 text-[2rem] font-bold" >Your Cart (<span id="cartquantity"></span>)</h2>
       <div id="cart-display">
-        <!-- <div class="flex items-center justify-between">
-              <div>
-                <p class="font-bold text-[#463f3a] mb-2"> Classic Tiramisu</p>
-                <div class="flex gap-3">
-                  <p class="text-[#ab584a] font-bold">1x</p>
-                  <p class="text-[#a1918c]">@ $5.50</p>
-                  <p class="text-[#928380] font-bold">$5.50</p>
-                </div>
-              </div>
-              <div class="border-1 border max-w-max max-h-max p-1 rounded-full border-[#9f8b8c]">
-                <img src="./assets/images/icon-remove-item.svg" alt="remove">
-              </div>
-          </div>
-          <div class="bg-[#c83b0e]/20  h-[1px] m-0"></div>
-
-          <div class="flex items-center justify-between">
-              <div>
-                <p class="font-bold text-[#463f3a] mb-2"> Cc Tiramisu</p>
-                <div class="flex gap-3">
-                  <p class="text-[#ab584a] font-bold">1x</p>
-                  <p class="text-[#a1918c]">@ $5.50</p>
-                  <p class="text-[#928380] font-bold">$5.50</p>
-                </div>
-              </div>
-              <div class="border-1 border max-w-max max-h-max p-1 rounded-full border-[#9f8b8c]">
-                <img src="./assets/images/icon-remove-item.svg" alt="remove">
-              </div>
-           </div>
-          <div class="bg-[#c83b0e]/20  h-[1px] m-0"></div>
-      </div> -->
-
-      
-
-      <!-- <div class="flex flex-col items-center" id="cart">
-        <img src="./assets/images/illustration-empty-cart.svg" alt="">
-        <p class="text-rose-950 font-medium">Your added items will appear here</p>
-      </div>   -->
       
     </div>
     <div  class='flex justify-between w-full items-center'>
@@ -251,8 +36,45 @@
     <div>
 
     </div>
-    <button class="bg-[#b8370d] text-[#ffb797] p-3 rounded-[30px] font-bold text-[1.2rem]">Confirm Button</button>
+    <button class="bg-[#b8370d] text-[#ffb797] p-3 rounded-[30px] font-bold text-[1.2rem] cursor-pointer" id="confirm">Confirm Button</button>
   </aside>
+
+  <section class=" absolute min-h-[100vh] w-[100%] hidden bg-black/70" id="orderConfirmationSection">
+    <div class="absolute top-[20%] left-[35%] bg-white w-[500px] h-fit p-[30px] rounded-[15px]">
+      <img src="./assets/images/icon-order-confirmed.svg" alt="icon-order-confirmed">
+      <h2 class="font-bold text-[2rem]">Order Confirmed</h2>
+      <p class="text-[#b1a6a4]">We hope you enjoy your food!</p>
+
+      <div class="bg-[#fcf8f5] p-[20px] rounded-[15px] my-[30px] " >
+        <div id="confirmationContainer">
+          <!-- <div id="orderConfirmation" class="flex justify-between items-center  border-b-[1px] pb-[15px] border-[#c83b0e]/5 mb-[30px]">
+
+            <div class="flex gap-[20px]">
+              <div class="w-[60px]">
+                <img src="./assets/images/image-baklava-thumbnail.jpg" alt="image-baklava-thumbnail">
+              </div>
+              <div class="flex flex-col justify-between">
+                <p class="font-bold text-[#1f1108]">Classic Tiramusu</p>
+                <div class="flex gap-[15px]">
+                  <p class="text-[#c63b0e] font-bold">1x</p>
+                  <p class="text-[#a09594] font-medium">@ #5.50</p>
+                </div>
+              </div>
+            </div>
+
+            <p class="text-[#1f1108] font-bold text-[1.1rem]">#5.50</p>
+          </div> -->
+        </div>
+        <div class="flex justify-between  items-center">
+          <p>Order Total</p>
+          <p class="font-bold text-[1.5rem] text-[#1f1108]"><span id="confirmationTotal"></span></p>
+        </div>
+      </div>
+      <button class="cursor-pointer w-full bg-[#c63b0e] text-white rounded-[30px] p-[10px]" id="startNewOrder">Start New Order</button>
+    </div>
+  </section>
+
+
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
